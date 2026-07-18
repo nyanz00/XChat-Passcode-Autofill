@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>XChat Passcode Autofill</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>XChat Passcode Autofill</h1>
+
+      <label class="toggle-row">
+        <span>自動入力</span>
+        <input id="enabled" type="checkbox" />
+      </label>
+
+      <form id="settings-form">
+        <label for="passcode">4桁のパスコード</label>
+        <div class="passcode-row">
+          <input
+            id="passcode"
+            type="password"
+            inputmode="numeric"
+            pattern="[0-9]{4}"
+            maxlength="4"
+            autocomplete="off"
+            aria-describedby="notice"
+          />
+          <button id="show-passcode" type="button" aria-label="パスコードを表示">表示</button>
+        </div>
+        <button class="primary" type="submit">保存</button>
+      </form>
+
+      <p id="status" role="status" aria-live="polite"></p>
+      <p id="notice">このパスコードは、このChromeプロフィールの拡張機能用ローカル領域に保存されます。</p>
+    </main>
+    <script src="popup.js"></script>
+  </body>
+</html>
