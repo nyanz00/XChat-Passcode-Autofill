@@ -2,12 +2,16 @@
 
 XChatのパスコード入力画面を検出し、保存した4桁の数字を自動入力・送信するChrome拡張機能です。
 
+## ダウンロード
+
+最新版は[GitHub Releases](https://github.com/nyanz00/XChat-Passcode-Autofill/releases)からZIPをダウンロードできます。展開後、`XChat-Passcode-Autofill` フォルダをChromeに読み込んでください。
+
 ## インストール
 
 1. Chromeで `chrome://extensions/` を開く
 2. 右上の「デベロッパー モード」をオンにする
 3. 「パッケージ化されていない拡張機能を読み込む」を押す
-4. このフォルダ（`XChat-Passcode-Autofill`）を選ぶ
+4. リポジトリ内の `XChat-Passcode-Autofill` フォルダを選ぶ
 5. ツールバーの拡張機能一覧から「XChat Passcode Autofill」を開く
 6. 4桁を入力して「保存」を押す
 
