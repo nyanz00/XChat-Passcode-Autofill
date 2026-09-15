@@ -6,6 +6,8 @@ XChatのパスコード入力画面を検出し、保存した4桁の数字を�
 
 最新版は[GitHub Releases](https://github.com/nyanz00/XChat-Passcode-Autofill/releases)からZIPをダウンロードできます。展開後、`XChat-Passcode-Autofill` フォルダをChromeに読み込んでください。
 
+現在のバージョン: **1.0.2**
+
 ## インストール
 
 1. Chromeで `chrome://extensions/` を開く
@@ -21,4 +23,4 @@ XChatのパスコード入力画面を検出し、保存した4桁の数字を�
 
 - パスコードはChromeの拡張機能用ローカルストレージに平文で保存されます。
 - X/XChatの画面構造が変わると動かなくなる場合があります。
-- `x.com` と `twitter.com` 以外のサイトでは動作しません。
+- `x.com`、`twitter.com`、`chat.x.com` 以外のサイトでは動作しません。
